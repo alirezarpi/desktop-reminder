@@ -4,7 +4,7 @@ I don't know about you but I forget almost everything so I made this script.
 ## How it works
 ![alt text]( ./img/how.png "terminal view")
 
-This script uses a empty template ( template.jpg ) and when you entered what you want, 
+This script uses an empty template ( template.jpg ) and when you entered what you want, 
 the text will be added to the template with the font `Calibri`, like this:
 
 ![alt text]( ./rtw.jpg "reminder wallpaper")
