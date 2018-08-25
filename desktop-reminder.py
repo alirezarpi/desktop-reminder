@@ -10,7 +10,7 @@ DEBUG = "DEBUG | "
 
 # ---------------> Desktop Reminder <-----------------
 
-print("\033[1;37mRemember to... ?\033[0;36m\nText To Remember:\033[34m ", end="")
+print("\033[1;37mRemember to... ?\033[0;36m\nText To Remember: ( Sentence Splited by - (dash) )\033[34m ", end="")
 text = input()
 print("\033[00m", end="")
 
