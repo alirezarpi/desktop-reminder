@@ -14,25 +14,16 @@ print("\033[1;37mRemember to... ?\033[0;36m\nText To Remember:\033[34m ", end=""
 text = input()
 print("\033[00m", end="")
 
-words = list(text.split("-"))
+count = text.count("-")
+text = text.replace("-", "\n")
 
-print(DEBUG + "Sentence: " + str(len(words)))
-
-# If sentence was so big go to the next line
-if( len(words) > 4 ):
+if ( count > 1 ):
     positionR = (100, 270) # Set position upper
     position = (120, 420)  # <-)
-    print(DEBUG + "Index of 4:  " + words[4])
-    arr = list(words)
-    arr.insert(5,"\n")
-    if ( len(words) > 10 ): # second line
-        print(DEBUG + "Index of 10:  " + words[10])
-        arr.insert(11,"\n")
-    text = ' '.join(arr)
-else:
+else:   
     positionR = (150, 370) # Set position middle of photo
     position = (170, 500)  # <-)
-    text = text
+
 
 path = os.popen('pwd').read() # Path to image folder
 path = list(path.split("\n"))
