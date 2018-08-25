@@ -21,4 +21,6 @@ This script is now very simple. I look forward to your opinions to make this bet
 **NOTE:** This script is using the template I added so the positioning of the text is based on this photo.
 If you added new template remember to adjust the positions (x, y)s.
 
+**UPDATE:** The proccessing of the Sentence changed ( see the script )
+
 **Enjoy**
